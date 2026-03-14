@@ -74,4 +74,4 @@ AQUO is built for those who value **data integrity** and **absolute privacy** ov
 
 ## License
 
-MIT.
+Proprietary & Non-Commercial. See [LICENSE](LICENSE).
