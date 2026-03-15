@@ -23,7 +23,7 @@ export default defineConfig({
   manifest: {
     name: 'Aquo',
     description: 'Engineering-grade data channel for the web. Instant extraction, privacy-first — local processing only.',
-    version: '1.0.0',
+    version: '1.0.1',
 
     // MV3 permissions — sidePanel is auto-added by WXT when sidepanel entrypoint exists
     permissions: [
@@ -33,10 +33,9 @@ export default defineConfig({
       'alarms',
     ],
 
-    // Required for Lemon Squeezy License API calls (CORS-enabled public endpoint)
+    // Lemon Squeezy License API only (no broad host permission)
     host_permissions: [
       'https://api.lemonsqueezy.com/*',
-      '*://*/*',
     ],
 
     // Empty action object required when using sidePanel (no popup UI)
